@@ -92,6 +92,30 @@
   color: #14532d;
 }
 
+.btn-whatsapp {
+  display: inline-block;
+  background-color: #25D366;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  padding: 0.75rem 2rem;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 14px rgba(37, 211, 102, 0.35);
+}
+.btn-whatsapp:hover {
+  background-color: #20ba59;
+  box-shadow: 0 0 36px rgba(37, 211, 102, 0.4);
+  transform: translateY(-2px);
+}
+.btn-whatsapp:active {
+  transform: translateY(0);
+}
+
 /* ── Section typography ────────────────────────────── */
 .section-title {
   font-family: 'Playfair Display', Georgia, serif;

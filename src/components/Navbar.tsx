@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, Phone } from 'lucide-react';
+import { Menu, X, Phone, MessageCircle } from 'lucide-react';
 
 const links = [
   { label: 'Home', href: '#home' },
@@ -9,6 +9,8 @@ const links = [
   { label: 'FAQ', href: '#faq' },
   { label: 'Contact', href: '#contact' },
 ];
+
+const waHref = `https://wa.me/917765868678?text=${encodeURIComponent('Hello Dr Akash, I would like to book an appointment at Denticle Dental Clinic.')}`;
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -68,8 +70,9 @@ export default function Navbar() {
               <Phone size={16} />
               +91-77658-68678
             </a>
-            <a href="#appointment" className="btn-primary text-sm py-2.5 px-6">
-              Book Appointment
+            <a href={waHref} target="_blank" rel="noopener noreferrer" className="btn-whatsapp text-sm py-2.5 px-6 flex items-center gap-2">
+              <MessageCircle size={16} />
+              WhatsApp
             </a>
           </div>
 
@@ -102,8 +105,9 @@ export default function Navbar() {
               <Phone size={16} />
               +91-77658-68678
             </a>
-            <a href="#appointment" onClick={() => setOpen(false)} className="btn-primary text-center text-sm">
-              Book Appointment
+            <a href={waHref} target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)} className="btn-whatsapp text-center text-sm flex items-center justify-center gap-2">
+              <MessageCircle size={16} />
+              WhatsApp
             </a>
           </div>
         </div>

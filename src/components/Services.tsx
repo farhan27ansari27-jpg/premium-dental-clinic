@@ -126,8 +126,8 @@ export default function Services() {
         {/* CTA */}
         <div className="text-center mt-14 reveal">
           <p className="text-green-200/70 mb-5">Not sure which treatment you need?</p>
-          <a href="#appointment" className="btn-primary shadow-glow-green">
-            Book a Free Consultation
+          <a href="https://wa.me/917765868678?text=Hello%20Dr%20Akash%2C%20I%20would%20like%20a%20free%20consultation." target="_blank" rel="noopener noreferrer" className="btn-primary shadow-glow-green">
+            Get a Free Consultation
           </a>
         </div>
       </div>

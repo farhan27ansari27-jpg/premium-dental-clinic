@@ -4,7 +4,6 @@ import About from './components/About';
 import Services from './components/Services';
 import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
-import Appointment from './components/Appointment';
 import Contact from './components/Contact';
 import WhatsApp from './components/WhatsApp';
 import Footer from './components/Footer';
@@ -15,9 +14,7 @@ export default function App() {
     <div className="relative">
       <Navbar />
       <main>
-        <RevealWrapper>
-          <Hero />
-        </RevealWrapper>
+        <Hero />
         <RevealWrapper>
           <About />
         </RevealWrapper>
@@ -29,9 +26,6 @@ export default function App() {
         </RevealWrapper>
         <RevealWrapper>
           <FAQ />
-        </RevealWrapper>
-        <RevealWrapper>
-          <Appointment />
         </RevealWrapper>
         <RevealWrapper>
           <Contact />

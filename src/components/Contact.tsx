@@ -12,8 +12,8 @@ const info = [
     icon: Clock,
     title: 'Working Hours',
     lines: ['Mon – Sat: 9:00 AM – 7:00 PM', 'Sunday: By Appointment Only'],
-    href: '#appointment',
-    linkLabel: 'Book Slot',
+    href: 'tel:+917765868678',
+    linkLabel: 'Call Now',
   },
   {
     icon: MapPin,

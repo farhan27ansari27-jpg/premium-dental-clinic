@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     q: 'How do I book an appointment?',
-    a: 'You can book an appointment by filling out our online form on this page, calling us directly at +91-77658-68678, or messaging us on WhatsApp using the floating button. We typically respond within a few hours and will confirm your preferred slot.',
+    a: 'You can reach us by calling +91-77658-68678 directly, or by messaging us on WhatsApp using the floating button. We typically respond within a few hours and will arrange a convenient time for your visit.',
   },
   {
     q: 'Do you offer EMI or payment plans?',
